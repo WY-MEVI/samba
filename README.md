@@ -15,8 +15,8 @@ samba-4.6.2-11.el7_4.x86_64
 $ cp /etc/systemd/logind.conf /etc/systemd/logind.conf.bak<br>
 $ vi /etc/systemd/logind.conf<br>
 
-HandleLidSwitch=suspend
+HandleLidSwitch=suspend<br>
 この行を以下のように変更<br>
-HandleLidSwitch=ignore
-変更後、以下のコマンドで反映
+HandleLidSwitch=ignore<br>
+変更後、以下のコマンドで反映<br>
 $ systemctl restart systemd-logind.service
