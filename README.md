@@ -9,8 +9,8 @@ CentOS Linux release 7.4.1708 (Core)<br>
 samba-4.6.2-11.el7_4.x86_64
 
 
-【おまけ】
-# ノートPCを閉じてもスリープさせない設定
+おまけ<br>
+ノートPCを閉じてもスリープさせない設定<br>
 設定ファイルをバックアップ<br>
 $ cp /etc/systemd/logind.conf /etc/systemd/logind.conf.bak<br>
 $ vi /etc/systemd/logind.conf<br>
